@@ -1,0 +1,9 @@
+$assetPath: "/src/assets/images";
+$color: red;
+
+.imageText {
+  width: 200px;
+  height: 200px;
+  background: url(#{$assetPath}/test.png);
+  color: $color;
+}
